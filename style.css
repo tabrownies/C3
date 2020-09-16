@@ -1,0 +1,52 @@
+
+body{
+  background-color:#fee;
+}
+h1, h2, p{
+  font-family:sans-serif;
+}
+.change-color{
+  color: navy;
+}
+#navBar{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width:100%;
+  background-color: white;
+  overflow: hidden;
+  top:0;
+  position: sticky;
+  font-family: cursive;
+}
+#navBar li{
+  float:left;
+  text-align: center;
+  color:tan;
+  border-right: 1px solid black;
+}
+#navBar li:last-child{
+  float:right;
+  border-right:none;
+  border-left: 1px solid black;
+}
+#navBar li a{
+  display:block;
+  padding:8px;
+  width:80px;
+  color:red;
+  text-decoration: none;
+  font-size:20px;
+}
+#navBar li a:hover:not(.active){
+  color:green;
+  background-color:aqua;
+}
+#navBar li .active{
+  color:green;
+  background-color:aqua;
+}
+.active:hover{
+  color:blue;
+  background-color: white;
+}
